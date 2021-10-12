@@ -6,33 +6,32 @@ h1{
     grid-gap: 30px;
     
 }
+.cost-dollars{
+    font-size: 2.5rem;
+}
 
-
-
+/*nav styles*/
 nav ul {
     display: flex;
-    align-items: left;
-   
-    
- 
-    
-  }
+    align-self: start;
+    }
   nav ul li{
+
     list-style-type: none;
     text-decoration: none;
     padding: 10px;
-    
-    
+    }
+    nav ul li:nth-of-type(5){
+        align-items: right;
+    }
 
 
-}
-
-
+/*main styles*/
 
 .main{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 3fr 2fr);
+    grid-template-rows: 3fr 2fr;
     grid-gap: 30px
 
 }
@@ -40,13 +39,26 @@ nav ul {
 .main h1 p{
     grid-column: 1 / 2;
     grid-row: span 2;
-    margin: 100px;
+   
   
+}
+.main h1{
+    text-align: center;
+
+}
+
+.main p{
+    
+    max-width: 500px;
 }
 
 .signup {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    justify-content: center;
+    text-align: center;
+}
+
+.login h3{
+    text-align: right;
 }
 
