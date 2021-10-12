@@ -1,0 +1,52 @@
+
+/*global styles*/
+h1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    
+}
+
+
+
+nav ul {
+    display: flex;
+    align-items: left;
+   
+    
+ 
+    
+  }
+  nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+
+
+}
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 2fr);
+    grid-gap: 30px
+
+}
+
+.main h1 p{
+    grid-column: 1 / 2;
+    grid-row: span 2;
+    margin: 100px;
+  
+}
+
+.signup {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-content: center;
+}
+
